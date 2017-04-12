@@ -3,6 +3,6 @@ scala:
   - 2.12.1
 jdk:
   - oraclejdk8
-  - openjdk8
+  - openjdk7
 
 script: "sbt clean coverage test"
